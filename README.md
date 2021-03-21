@@ -1,47 +1,58 @@
-```
-┌───────────────────────────────────────────────┐
-                                       _       
-     __ _  ___   ___  _ __ _ __ ___   (_) ___  
-    / _` |/ _ \ / _ \| '__| '_ ` _ \  | |/ _ \ 
-   | (_| | (_) | (_) | |  | | | | | |_| | (_) |
-    \__, |\___/ \___/|_|  |_| |_| |_(_)_|\___/ 
-    |___/                                      
-			     🌩 𝘼𝙣𝙮𝙤𝙣𝙚 𝙘𝙖𝙣 𝙙𝙚𝙫𝙚𝙡𝙤𝙥!
-└───────────────────────────────────────────────┘
-```
+![Preview](https://i.imgur.com/W8op4O3.png)
 
-# goormIDE
-Welcome to goormIDE!
+# Covid Bed Tracker React App
 
-goormIDE is a powerful cloud IDE service to maximize productivity for developers and teams.  
-**DEVELOP WITH EXCELLENCE**  
+This project is responsible for tracking beds at various hospitals for covid patients in order to avoid too much unnecessary crowding at the hospitals. The main aim of the project is create an easy and effecient way for patients to be able to book these beds and avoid wasting time by manually going and searching for free beds in various hospitals. It has 2 types of logins viz. Hospital Admin and Patients. Patients can reserve a bed at a hospital by filling application form, and the hospital admin can confirm their reservation in person by scanning a QR code.
 
-`Happy coding! The goormIDE team`
+![This](https://i.imgur.com/0ofa8tr.png)
 
+## Available Scripts
 
-## 🔧 Tip & Guide
+In the project directory, you can run:
 
-* Command feature
-	* You can simply run your script using the shortcut icons on the top right.
-	* Check out `PROJECT > Common/Build/Run/Test/Find Command` in the top menu.
-	
-* Get URL and Port
-	* Click `PROJECT > URL/PORT` in top menu bar.
-	* You can get default URL/Port and add URL/Port in the top menu.
+### `npm start`
 
-* Useful shortcut
-	
-| Shortcuts name     | Command (Mac) | Command (Window) |
-| ------------------ | :-----------: | :--------------: |
-| Copy in Terminal   | ⌘ + C         | Ctrl + Shift + C |
-| Paste in Terminal  | ⌘ + V         | Ctrl + Shift + V |
-| Search File        | ⌥ + ⇧ + F     | Alt + Shift + F  |
-| Terminal Toggle    | ⌥ + ⇧ + B     | Alt + Shift + B  |
-| New Terminal       | ⌥ + ⇧ + T     | Alt + Shift + T  |
-| Code Formatting    | ⌥ + ⇧ + P     | Alt + Shift + P  |
-| Show All Shortcuts | ⌘ + H         | Ctrl + H         |
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-## 💬 Support & Documentation
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-Visit [https://ide.goorm.io](https://ide.goorm.io) to support and learn more about using goormIDE.  
-To watch some usage guides, visit [https://help.goorm.io/en/goormide](https://help.goorm.io/en/goormide)
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+![View](https://i.imgur.com/utiI2Ry.png)
+
+![View](https://i.imgur.com/iaYN4Aq.png)
+
+# Features
+
+-   Register and authenticate hospital admins using JSON web tokens
+
+-   Register patients using firebase mobile otp authentication
+
+-   Searching for free beds in a list of various hospitals that can be filtered based on location
+
+-   Chatbot to answer queries related to covid-19 and our platform
+
+-   Booking of beds can be done through the platform by providing proof like aadhar in pdf format
+
+-   Statistical data and graphs related to current number of covid cases
+
+-   A flutter app has also been created for scanning QR code to confirm a booking by hospital Admin
+
+-   Have a pleasant UI/UX built to look awesome from mobile to desktop
+
+![OkView](https://i.imgur.com/dTvrsrk.png)
